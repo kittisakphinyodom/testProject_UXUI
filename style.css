@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4682b4;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+}
+
+.icons button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+nav button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.danger {
+    background: red;
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.slides img {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.products {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-category {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.best-seller { background: pink; }
+.new { background: yellow; }
+.discount { background: orange; }
+.free-shipping { background: green; color: white; }
+
+.product-list img {
+    width: 150px;
+    margin: 10px;
+}
+
+aside {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.coupon, .community {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.coupon { background: yellow; }
+.community { background: lightgray; }
